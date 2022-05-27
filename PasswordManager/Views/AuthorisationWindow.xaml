@@ -1,0 +1,57 @@
+﻿<Window x:Class="PasswordManager.Views.AuthorisationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PasswordManager.Views"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="{DynamicResource MaterialDesignLightBackground}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="Segoe UI"
+        Title="Авторизация"
+        MinHeight="450"
+        MinWidth="800">
+    
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                MinWidth="250">
+
+        <TextBox x:Name="TextBoxLogin"
+                 Margin="10"
+                 Style="{DynamicResource MaterialDesignOutlinedTextBox}"
+                 materialDesign:HintAssist.Hint="Логин"/>
+        <PasswordBox x:Name="PassBoxPassword"
+                     Margin="10"
+                     Style="{DynamicResource MaterialDesignOutlinedPasswordBox}"
+                     materialDesign:HintAssist.Hint="Пароль"/>
+
+        <CheckBox x:Name="CheckBoxRememberMe"
+                  Content="Запомнить меня"
+                  Margin="10"/>
+
+        <Button x:Name="ButtonSignIn"
+                Margin="10"
+                Content="Авторизоваться"
+                Style="{DynamicResource MaterialDesignRaisedButton}" Click="ButtonSignIn_Click"/>
+        
+        <StackPanel Orientation="Horizontal">
+            
+            <Button x:Name="ButtonSignUp"
+                Content="Зарегистрироваться"
+                Style="{DynamicResource MaterialDesignFlatButton}" Click="ButtonSignUp_Click"/>
+
+            <Button x:Name="ButtonForgotPassword"
+                Content="Забыл пароль..."
+                Style="{DynamicResource MaterialDesignFlatButton}"/>
+            
+
+        </StackPanel>
+
+    </StackPanel>
+    
+</Window>

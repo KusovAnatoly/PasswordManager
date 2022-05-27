@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5ba59514-cff0-4bc2-a4d8-62ba0c334818": {
+      "ProjectGuid": "5ba59514-cff0-4bc2-a4d8-62ba0c334818",
+      "DisplayName": "PasswordManager",
+      "ColorIndex": 0
+    },
+    "0cce2ed6-755f-43f7-ab1c-f23c9fce77d7": {
+      "ProjectGuid": "0cce2ed6-755f-43f7-ab1c-f23c9fce77d7",
+      "DisplayName": "PasswordManager.Core",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
