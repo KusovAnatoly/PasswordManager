@@ -4,7 +4,7 @@
 
 ## Если SQL Server не установлен
 
-  1. Скачать (SQL Server)[https://www.microsoft.com/ru-RU/download/details.aspx?id=101064] и (SQL Server Managemnet Studio)[https://aka.ms/ssmsfullsetup]
+  1. Скачать [SQL Server](https://www.microsoft.com/ru-RU/download/details.aspx?id=101064) и [SQL Server Managemnet Studio](https://aka.ms/ssmsfullsetup)
   2. Установить их
 
 ## Если установлен
